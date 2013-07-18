@@ -1,39 +1,43 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
-
-
-// open a single window
-var win = Ti.UI.createWindow({
-	backgroundColor:'white'
-});
-var label = Ti.UI.createLabel();
-win.add(label);
-win.open();
-
-// TODO: write your module tests here
 var TiExtendTextField = require('net.uchidak.tiextendtextfield');
 Ti.API.info("module is => " + TiExtendTextField);
 
-label.text = TiExtendTextField.example();
+var win = Ti.UI.createWindow({
+    backgroundColor : '#f8f8f8',
+    width : Ti.UI.FILL,
+    height : Ti.UI.FILL
+});
 
-Ti.API.info("module exampleProp is => " + TiExtendTextField.exampleProp);
-TiExtendTextField.exampleProp = "This is a test value";
+var textArea = Ti.UI.createTextArea({
+    width : 200,
+    top : 4,
+    bottom : 4,
+    height : Ti.UI.SIZE,
+    suppressReturn : false
+});
 
-if (Ti.Platform.name == "android") {
-	var proxy = TiExtendTextField.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
+var view = Ti.UI.createView({
+    backgroundColor : 'red',
+    height : 100
+});
 
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
+var subView = Ti.UI.createView({
+    backgroundColor : '#333',
+    bottom : 0,
+    height : Ti.UI.SIZE,
+    width : 320
+});
 
+var textField = TiExtendTextField.createTextField({
+    width : 300,
+    height : 44,
+    borderStyle : Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+    inputAccessoryView : view
+});
+textField.addEventListener('focus', function(e) {
+});
+
+view.add(subView);
+subView.add(textArea);
+win.add(textField);
+
+win.open();
