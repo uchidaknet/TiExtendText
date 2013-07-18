@@ -24,7 +24,19 @@
 		UIView *view = [args view];
         TiTextField* textField = super.textWidgetView;
         textField.inputAccessoryView = view;
-	}    
+	}
+}
+
+-(void)setInputView_:(id)args
+{
+    ENSURE_SINGLE_ARG_OR_NIL(args,TiViewProxy);
+	if (args!=nil)
+	{
+		[args windowWillOpen];
+		UIView *view = [args view];
+        TiTextField* textField = super.textWidgetView;
+        textField.inputView = view;
+	}
 }
 
 @end
