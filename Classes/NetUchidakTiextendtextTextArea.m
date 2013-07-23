@@ -1,19 +1,17 @@
 //
-//  NetUchidakTiextendtextfield.m
-//  TiExtendTextField
+//  NetUchidakTiextendtextTextArea.m
+//  TiExtendText
 //
-//  Created by Keisuke Uchida on 2013/07/18.
+//  Created by Keisuke Uchida on 2013/07/19.
 //
 //
 #import <UIKit/UIKit.h>
 #import "TiUtils.h"
-#import "TiProxy.h"
-#import "TiViewProxy.h"
-#import "NetUchidakTiextendtextfieldTextField.h"
+#import "TiApp.h"
+#import "NetUchidakTiextendtextTextArea.h"
+#import "NetUchidakTiextendtextTextAreaProxy.h"
 
-@implementation NetUchidakTiextendtextfieldTextField
-
-#pragma mark Property
+@implementation NetUchidakTiextendtextTextArea
 
 -(void)setInputAccessoryView_:(id)args
 {
@@ -22,7 +20,7 @@
 	{
 		[args windowWillOpen];
 		UIView *view = [args view];
-        TiTextField* textField = super.textWidgetView;
+        UITextView *textField = (UITextView*)[super textWidgetView];
         textField.inputAccessoryView = view;
 	}
 }
@@ -34,7 +32,7 @@
 	{
 		[args windowWillOpen];
 		UIView *view = [args view];
-        TiTextField* textField = super.textWidgetView;
+        UITextView *textField = (UITextView*)[super textWidgetView];
         textField.inputView = view;
 	}
 }

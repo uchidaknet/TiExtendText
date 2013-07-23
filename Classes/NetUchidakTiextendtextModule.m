@@ -4,25 +4,25 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "NetUchidakTiextendtextfieldModule.h"
+#import "NetUchidakTiextendtextModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 
-@implementation NetUchidakTiextendtextfieldModule
+@implementation NetUchidakTiextendtextModule
 
 #pragma mark Internal
 
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"68a62be9-c6da-4c24-97bd-ca0a3a5f3422";
+	return @"9f0cf191-f038-4016-9f07-4ba8ba453bc0";
 }
 
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"net.uchidak.tiextendtextfield";
+	return @"net.uchidak.tiextendtext";
 }
 
 #pragma mark Lifecycle

@@ -1,16 +1,16 @@
-# TiExtendTextField Module
+# TiExtendText Module
 
 ## Description
 
 TODO: Enter your module description here
 
-## Accessing the TiExtendTextField Module
+## Accessing the TiExtendText Module
 
 To access this module from JavaScript, you would do the following:
 
-	var TiExtendTextField = require("net.uchidak.tiextendtextfield");
+	var TiExtendText = require("net.uchidak.tiextendtext");
 
-The TiExtendTextField variable is a reference to the Module object.	
+The TiExtendText variable is a reference to the Module object.	
 
 ## Reference
 

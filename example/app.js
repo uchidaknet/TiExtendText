@@ -1,10 +1,11 @@
-var TiExtendTextField = require('net.uchidak.tiextendtextfield');
-Ti.API.info("module is => " + TiExtendTextField);
+var TiExtendText = require('net.uchidak.tiextendtext');
+Ti.API.info("module is => " + TiExtendText);
 
 var win = Ti.UI.createWindow({
     backgroundColor : '#f8f8f8',
     width : Ti.UI.FILL,
-    height : Ti.UI.FILL
+    height : Ti.UI.FILL,
+    layout : 'vertical'
 });
 
 var textArea = Ti.UI.createTextArea({
@@ -110,7 +111,7 @@ inputC.addEventListener('click', function(e){
 });
 inputView.add(inputC);
 
-var textField = TiExtendTextField.createTextField({
+var textField = TiExtendText.createTextField({
     width : 300,
     height : 44,
     borderStyle : Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
@@ -120,9 +121,20 @@ var textField = TiExtendTextField.createTextField({
 textField.addEventListener('focus', function(e) {
 });
 
+var textArea2 = TiExtendText.createTextArea({
+    width : 300,
+    height : 44,
+    borderStyle : Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+    inputAccessoryView : view,
+    inputView : inputView
+});
+textArea2.addEventListener('focus', function(e) {
+});
+
 view.add(subView);
 subView.add(textArea);
 subView.add(done);
 win.add(textField);
+win.add(textArea2);
 
 win.open();

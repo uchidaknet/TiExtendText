@@ -22,16 +22,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* NetUchidakTiextendtextfieldModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* NetUchidakTiextendtextfieldModule.h */; };
-		24DD6CFA1134B3F500162E58 /* NetUchidakTiextendtextfieldModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NetUchidakTiextendtextfieldModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.m */; };
-		AA747D9F0F9514B9006C5449 /* NetUchidakTiextendtextfield_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NetUchidakTiextendtextfield_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* NetUchidakTiextendtextModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* NetUchidakTiextendtextModule.h */; };
+		24DD6CFA1134B3F500162E58 /* NetUchidakTiextendtextModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NetUchidakTiextendtextModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* NetUchidakTiextendtext_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NetUchidakTiextendtext_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		FE2049631797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2049611797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.h */; };
-		FE2049641797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2049621797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.m */; };
-		FE2049671797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2049651797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.h */; };
-		FE2049681797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2049661797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.m */; };
+		FE680F6D179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = FE680F69179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.h */; };
+		FE680F6E179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = FE680F6A179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.m */; };
+		FE680F6F179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE680F6B179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.h */; };
+		FE680F70179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE680F6C179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.m */; };
+		FE680F75179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FE680F71179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.h */; };
+		FE680F76179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FE680F72179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.m */; };
+		FE680F77179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE680F73179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.h */; };
+		FE680F78179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE680F74179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,23 +44,27 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = TiExtendTextField;
+			remoteInfo = TiExtendText;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* NetUchidakTiextendtextfieldModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextfieldModule.h; path = Classes/NetUchidakTiextendtextfieldModule.h; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* NetUchidakTiextendtextfieldModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextfieldModule.m; path = Classes/NetUchidakTiextendtextfieldModule.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* NetUchidakTiextendtextModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextModule.h; path = Classes/NetUchidakTiextendtextModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* NetUchidakTiextendtextModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextModule.m; path = Classes/NetUchidakTiextendtextModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextfieldModuleAssets.h; path = Classes/NetUchidakTiextendtextfieldModuleAssets.h; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextfieldModuleAssets.m; path = Classes/NetUchidakTiextendtextfieldModuleAssets.m; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* NetUchidakTiextendtextfield_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUchidakTiextendtextfield_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextModuleAssets.h; path = Classes/NetUchidakTiextendtextModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextModuleAssets.m; path = Classes/NetUchidakTiextendtextModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* NetUchidakTiextendtext_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUchidakTiextendtext_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libNetUchidakTiextendtextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetUchidakTiextendtextfield.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE2049611797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextfieldTextField.h; path = Classes/NetUchidakTiextendtextfieldTextField.h; sourceTree = "<group>"; };
-		FE2049621797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextfieldTextField.m; path = Classes/NetUchidakTiextendtextfieldTextField.m; sourceTree = "<group>"; };
-		FE2049651797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextfieldTextFieldProxy.h; path = Classes/NetUchidakTiextendtextfieldTextFieldProxy.h; sourceTree = "<group>"; };
-		FE2049661797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextfieldTextFieldProxy.m; path = Classes/NetUchidakTiextendtextfieldTextFieldProxy.m; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libNetUchidakTiextendtext.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetUchidakTiextendtext.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE680F69179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextTextArea.h; path = Classes/NetUchidakTiextendtextTextArea.h; sourceTree = "<group>"; };
+		FE680F6A179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextTextArea.m; path = Classes/NetUchidakTiextendtextTextArea.m; sourceTree = "<group>"; };
+		FE680F6B179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextTextAreaProxy.h; path = Classes/NetUchidakTiextendtextTextAreaProxy.h; sourceTree = "<group>"; };
+		FE680F6C179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextTextAreaProxy.m; path = Classes/NetUchidakTiextendtextTextAreaProxy.m; sourceTree = "<group>"; };
+		FE680F71179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextTextField.h; path = Classes/NetUchidakTiextendtextTextField.h; sourceTree = "<group>"; };
+		FE680F72179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextTextField.m; path = Classes/NetUchidakTiextendtextTextField.m; sourceTree = "<group>"; };
+		FE680F73179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiextendtextTextFieldProxy.h; path = Classes/NetUchidakTiextendtextTextFieldProxy.h; sourceTree = "<group>"; };
+		FE680F74179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiextendtextTextFieldProxy.m; path = Classes/NetUchidakTiextendtextTextFieldProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +82,12 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libNetUchidakTiextendtextfield.a */,
+				D2AAC07E0554694100DB518D /* libNetUchidakTiextendtext.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0867D691FE84028FC02AAC07 /* TiExtendTextField */ = {
+		0867D691FE84028FC02AAC07 /* TiExtendText */ = {
 			isa = PBXGroup;
 			children = (
 				08FB77AEFE84172EC02AAC07 /* Classes */,
@@ -87,7 +95,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = TiExtendTextField;
+			name = TiExtendText;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -101,14 +109,18 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DE9E0F11C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.m */,
-				FE2049611797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.h */,
-				FE2049651797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.h */,
-				FE2049661797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.m */,
-				FE2049621797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.m */,
-				24DD6CF71134B3F500162E58 /* NetUchidakTiextendtextfieldModule.h */,
-				24DD6CF81134B3F500162E58 /* NetUchidakTiextendtextfieldModule.m */,
+				FE680F71179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.h */,
+				FE680F72179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.m */,
+				FE680F73179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.h */,
+				FE680F74179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.m */,
+				24DE9E0F11C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* NetUchidakTiextendtextModule.h */,
+				24DD6CF81134B3F500162E58 /* NetUchidakTiextendtextModule.m */,
+				FE680F69179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.h */,
+				FE680F6A179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.m */,
+				FE680F6B179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.h */,
+				FE680F6C179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -116,7 +128,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* NetUchidakTiextendtextfield_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* NetUchidakTiextendtext_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -129,20 +141,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* NetUchidakTiextendtextfield_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* NetUchidakTiextendtextfieldModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.h in Headers */,
-				FE2049631797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.h in Headers */,
-				FE2049671797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* NetUchidakTiextendtext_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* NetUchidakTiextendtextModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.h in Headers */,
+				FE680F6D179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.h in Headers */,
+				FE680F6F179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.h in Headers */,
+				FE680F75179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.h in Headers */,
+				FE680F77179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* TiExtendTextField */ = {
+		D2AAC07D0554694100DB518D /* TiExtendText */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiExtendTextField" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiExtendText" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -152,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = TiExtendTextField;
-			productName = TiExtendTextField;
-			productReference = D2AAC07E0554694100DB518D /* libNetUchidakTiextendtextfield.a */;
+			name = TiExtendText;
+			productName = TiExtendText;
+			productReference = D2AAC07E0554694100DB518D /* libNetUchidakTiextendtext.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +176,7 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiExtendTextField" */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiExtendText" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -172,12 +186,12 @@
 				French,
 				German,
 			);
-			mainGroup = 0867D691FE84028FC02AAC07 /* TiExtendTextField */;
+			mainGroup = 0867D691FE84028FC02AAC07 /* TiExtendText */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* TiExtendTextField */,
+				D2AAC07D0554694100DB518D /* TiExtendText */,
 				24416B8111C4CA220047AFDD /* Build & Test */,
 			);
 		};
@@ -204,10 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* NetUchidakTiextendtextfieldModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* NetUchidakTiextendtextfieldModuleAssets.m in Sources */,
-				FE2049641797CCE000507DAA /* NetUchidakTiextendtextfieldTextField.m in Sources */,
-				FE2049681797CEC300507DAA /* NetUchidakTiextendtextfieldTextFieldProxy.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* NetUchidakTiextendtextModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* NetUchidakTiextendtextModuleAssets.m in Sources */,
+				FE680F6E179E1EC700B8EF82 /* NetUchidakTiextendtextTextArea.m in Sources */,
+				FE680F70179E1EC700B8EF82 /* NetUchidakTiextendtextTextAreaProxy.m in Sources */,
+				FE680F76179E1F9D00B8EF82 /* NetUchidakTiextendtextTextField.m in Sources */,
+				FE680F78179E1F9D00B8EF82 /* NetUchidakTiextendtextTextFieldProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +232,7 @@
 /* Begin PBXTargetDependency section */
 		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* TiExtendTextField */;
+			target = D2AAC07D0554694100DB518D /* TiExtendText */;
 			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -228,11 +244,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/NetUchidakTiextendtextfield.dst;
+				DSTROOT = /tmp/NetUchidakTiextendtext.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetUchidakTiextendtextfield_Prefix.pch;
+				GCC_PREFIX_HEADER = NetUchidakTiextendtext_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -251,7 +267,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetUchidakTiextendtextfield;
+				PRODUCT_NAME = NetUchidakTiextendtext;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -265,11 +281,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/NetUchidakTiextendtextfield.dst;
+				DSTROOT = /tmp/NetUchidakTiextendtext.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetUchidakTiextendtextfield_Prefix.pch;
+				GCC_PREFIX_HEADER = NetUchidakTiextendtext_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -286,7 +302,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetUchidakTiextendtextfield;
+				PRODUCT_NAME = NetUchidakTiextendtext;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -299,11 +315,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/NetUchidakTiextendtextfield.dst;
+				DSTROOT = /tmp/NetUchidakTiextendtext.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetUchidakTiextendtextfield_Prefix.pch;
+				GCC_PREFIX_HEADER = NetUchidakTiextendtext_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -321,7 +337,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetUchidakTiextendtextfield;
+				PRODUCT_NAME = NetUchidakTiextendtext;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -335,11 +351,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/NetUchidakTiextendtextfield.dst;
+				DSTROOT = /tmp/NetUchidakTiextendtext.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NetUchidakTiextendtextfield_Prefix.pch;
+				GCC_PREFIX_HEADER = NetUchidakTiextendtext_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -355,7 +371,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NetUchidakTiextendtextfield;
+				PRODUCT_NAME = NetUchidakTiextendtext;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -388,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiExtendTextField" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiExtendText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -397,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiExtendTextField" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiExtendText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,

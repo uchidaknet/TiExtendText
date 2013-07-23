@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "24416B8111C4CA220047AFDD"
-               BuildableName = "Build &amp; Test"
-               BlueprintName = "Build &amp; Test"
-               ReferencedContainer = "container:TiExtendTextField.xcodeproj">
+               BlueprintIdentifier = "D2AAC07D0554694100DB518D"
+               BuildableName = "libNetUchidakTiextendtext.a"
+               BlueprintName = "TiExtendText"
+               ReferencedContainer = "container:TiExtendText.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

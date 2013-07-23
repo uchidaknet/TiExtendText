@@ -1,11 +1,11 @@
 /**
  * This is a generated file. Do not edit or your changes will be lost
  */
-#import "NetUchidakTiextendtextfieldModuleAssets.h"
+#import "NetUchidakTiextendtextModuleAssets.h"
 
 extern NSData* filterDataInRange(NSData* thedata, NSRange range);
 
-@implementation NetUchidakTiextendtextfieldModuleAssets
+@implementation NetUchidakTiextendtextModuleAssets
 
 - (NSData*) moduleAsset
 {

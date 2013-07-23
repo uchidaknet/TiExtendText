@@ -6,7 +6,7 @@
  */
 #import "TiModule.h"
 
-@interface NetUchidakTiextendtextfieldModule : TiModule 
+@interface NetUchidakTiextendtextModule : TiModule 
 {
 }
 
